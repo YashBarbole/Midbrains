@@ -1,6 +1,6 @@
 const mongoose= require('mongoose');
 
-mongoose.connect('mongodb+srv://yashbarbole7110_db_user:yash12@practice.2n6fqyw.mongodb.net/Midbrain')
+mongoose.connect(MONGO_URL);
 
 const AdminSchema= new mongoose.Schema({
     username:String,
